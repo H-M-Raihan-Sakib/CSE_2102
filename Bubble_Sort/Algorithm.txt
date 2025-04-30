@@ -1,0 +1,17 @@
+Bubble Sort
+
+There is a vector array named "a" initialized with some value in unsorted format.
+
+1) set i := 0
+2) repeat steps 3, 4 while i < a.size()
+	3) set j := i+1
+	4) repeat steps 5 and 6 while j < a.size()
+		5) if a[i] >= a[j] then : 
+			INTERCHANGE between a[i] and a[j]
+		else Continue 
+			[END OF IF]
+	6) set j  = j + 1
+		[END OF LOOP]
+	7) set i = i+1
+		[END OF LOOP]
+8) WRITE vector array "a" and exit
